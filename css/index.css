@@ -1,3 +1,9 @@
+.nav-spacing {
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -167,6 +173,41 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav div {
+  padding: 4%, 15%;
+}
+nav a {
+  text-decoration: none;
+  margin: 2%;
+  font-size: 2rem;
+  width: 100%;
+  color: black;
+}
+nav .nav-logo {
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+nav .nav-links {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.top-hr {
+  hr: 1px dotted black;
 }
 .footer {
   width: 100%;
