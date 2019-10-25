@@ -266,3 +266,14 @@ nav .nav-links {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  border-radius: 6px;
+  color: white;
+  background-color: seagreen;
+  height: 40px;
+  width: 85%;
+}
