@@ -2,6 +2,10 @@
 nav {
     width: 100%;
     .flex(space-between, center);
+    @media @mobile{
+        flex-direction: column;
+    }
+
 
     div{
         padding: 4%, 15%;
@@ -24,6 +28,9 @@ nav {
         width: 33%;
         .flex(center, center);
         .nav-spacing();
+        @media @mobile{
+            width: 100%;
+        }
     }
 
 }
